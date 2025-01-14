@@ -1,21 +1,13 @@
 # Story Filter Plugin
 
 ## Description
-The **Story Filter Plugin** is a custom WordPress plugin that allows users to filter and display stories dynamically. It utilizes AJAX for seamless data fetching and provides a user-friendly interface for filtering content.
+The **Story Filter Plugin** is a custom WordPress plugin which I recently developed for Fight Colorectal Cancer .org that allows users to filter and display stories dynamically. It utilizes AJAX for seamless data fetching and provides a user-friendly interface for filtering content.
 
 ## Features
 - Dynamic filtering using AJAX.
 - Easy integration with WordPress themes.
 - Customizable filtering options via the plugin settings.
 - Lightweight and efficient.
-
-## Installation
-1. Download the plugin files or clone the repository:
-   ```bash
-   git clone https://github.com/mursalinmutton/Search-Filter-Plugin.git
-   ```
-2. Upload the plugin folder to your WordPress installation under `/wp-content/plugins/`.
-3. Activate the plugin through the WordPress admin dashboard in the **Plugins** section.
 
 ## Usage
 1. Add the shortcode `[sfp_filter]` to any page or post where you want to display the filter form and results.
@@ -53,3 +45,5 @@ add_action('wp_ajax_nopriv_sfp_filter_stories', 'sfp_filter_stories');
 - **`story-filter-plugin.php`**: Main plugin file, handles initialization and server-side logic.
 - **`script.js`**: Manages the AJAX filtering process on the client side.
 
+## Note
+ - This plugin was specifically developed for Fight Colorectal Cancer dot Org. Can be copied to be used but will require changes to taxonomies etc to make it work for your needs.  
